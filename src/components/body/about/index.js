@@ -1,5 +1,4 @@
 import React from 'react'
-import Socials from '../../common/socials/index.js'
 import './about.css'
 
 function About() {
@@ -16,7 +15,6 @@ function About() {
                     <img src={require('../../../assets/cat.jpg').default} className="picture" alt="Placeholder"/>
                 </div>
             </div>
-            <Socials />
         </div>
     )
 }
