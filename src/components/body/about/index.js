@@ -6,13 +6,16 @@ function About() {
         <div className="about">
             <div className="about-top">
                 <div className="about-info">
-                    Lorem Ipsum, 
-                    <br/> <span className="info-name">doler</span>
+                    Hi there! 
+                    <br/> <span className="info-name">I'm Pierce</span>
                     <br/> 
-                    sit amet!
+                    Nice to meet you!
+                    <br />
+                    I'm a freshman majoring in
+                    <br /><span className='info-name'>Computer Science at UCLA</span>
                 </div>
                 <div className="about-photo">
-                    <img src={require('../../../assets/cat.jpg').default} className="picture" alt="Placeholder"/>
+                    <img src={require('../../../assets/me.jpg').default} className="picture" alt="Placeholder"/>
                 </div>
             </div>
         </div>

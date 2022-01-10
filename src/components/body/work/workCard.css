@@ -9,7 +9,7 @@
 }
 
 .work-logo{
-    height: 150px
+    height: 120px
 }
 
 .work-info{
@@ -20,11 +20,11 @@
 }
 
 .company-name{
-
+    font-weight: bold;
 }
 
 .job{
-
+    font-style: italic;
 }
 
 .dates{

@@ -2,7 +2,6 @@ import React from 'react'
 import './body.css'
 import About from './about/index.js'
 import Projects from './projects/index.js'
-import Skills from './skills/index.js'
 import Work from './work/index.js'
 import Contact from './contact/index.js'
 
@@ -14,9 +13,6 @@ function Body() {
             </section>
             <section id='projects'>
                 <Projects />
-            </section>
-            <section id='skills'>
-                <Skills />
             </section>
             <section id='work'>
                 <Work />

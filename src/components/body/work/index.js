@@ -8,7 +8,7 @@ function Work() {
     return (
         <div className="work">
             <Separator />
-            <label className="section-title">Work</label>
+            <label className="section-title">Where I've worked</label>
             <div className="work-list">
                 {data.map((work)=>{
                     return <WorkCard work = {work}/>

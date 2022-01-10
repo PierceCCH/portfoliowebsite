@@ -7,7 +7,6 @@ function Contact() {
     return (
         <div className='contact'>
             <Separator />
-            <label className='section-title'>Contact</label>
             <div className='contact-container'></div>
                 <div className='contact-left'>
                     <p>Let's get in touch!</p>
@@ -15,7 +14,7 @@ function Contact() {
                 </div>
                 <div className='download'>
                     <a download href={require("../../../assets/Resume_2Oct21.pdf").default}>
-                        <img src={require("../../../assets/icons/download-file.png").default} alt="Download Icon"/>Download Resume
+                        <img src={require("../../../assets/icons/download-file.png").default} alt="Download Icon"/>Resume
                     </a>
                 </div>
         </div>

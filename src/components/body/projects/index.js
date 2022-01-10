@@ -9,12 +9,13 @@ function Projects() {
     return (
         <div className="projects">
             <Separator />
-            <label className="section-title">Projects</label>
+            <label className="section-title">Some projects I've worked on</label>
             <div>
                 {data.map((project)=>{
                     return <ProjectCard project={project}/>
                 })}
             </div>
+            <label className="section-footer">More on the way!</label>
         </div>
     )
 }

@@ -17,10 +17,11 @@
 .contact-left{
     max-width: 60%;
     font-size: 20px;
+    font-weight: bold;
+    margin: auto;
     text-align: center;
 }
 .download{
-    background-color: antiquewhite;
     padding: 8px 16px;
     font-size: 24px;
     display: flex;
