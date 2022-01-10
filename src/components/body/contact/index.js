@@ -13,7 +13,7 @@ function Contact() {
                     <Socials />
                 </div>
                 <div className='download'>
-                    <a download href={require("../../../assets/Resume_2Oct21.pdf").default}>
+                    <a download href={require("../../../assets/Pierce_Resume.pdf").default}>
                         <img src={require("../../../assets/icons/download-file.png").default} alt="Download Icon"/>Resume
                     </a>
                 </div>
