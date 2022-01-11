@@ -10,9 +10,9 @@ export const ProjectData = [
     {
         id: 2,
         title: "Facial Recognition on RPi",
-        about: "This is a placeholder description of a project that I have not created yet!",
+        about: "A facial recognition system that runs on a Raspberry Pi. Able to identify faces with only one reference image. Low-power, easily deployed on the field. Completed as part of DSTA Internship.",
         tags: ["Python"],
         github: "https://github.com/PierceCCH/dstaSmartCam",
-        image: require("../../assets/jio.jpg").default,
+        image: require("../../assets/frPipeline.jpg").default,
     },
 ]
